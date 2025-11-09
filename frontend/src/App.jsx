@@ -1,0 +1,14 @@
+import React from 'react';
+import Dashboard from './pages/Dashboard';
+import { ToastContainer } from 'react-toastify';
+
+function App(){
+  return (
+    <>
+      <Dashboard />
+      <ToastContainer position="top-right" autoClose={3000} />
+    </>
+  );
+}
+
+export default App;
